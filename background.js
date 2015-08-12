@@ -1,6 +1,8 @@
 chrome.app.runtime.onLaunched.addListener(function() {
-  chrome.app.window.create('index.htm', {
-    id: 'embedder',
-    innerBounds: {width: 1000, height: 700}
-  });
+	chrome.app.window.create('index.htm', {
+		bounds: {
+			height: 700,
+			width: 1000
+		}
+	});
 });
