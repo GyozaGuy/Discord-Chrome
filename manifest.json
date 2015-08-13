@@ -9,5 +9,5 @@
 		}
 	},
 	"icons": { "16": "assets/icon_16.png", "128": "assets/icon_128.png" },
-	"permissions": ["webview"]
+	"permissions": ["audioCapture", "webview"]
 }

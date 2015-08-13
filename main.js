@@ -4,5 +4,11 @@ function updateWebviews() {
 	webview.style.width = document.documentElement.clientWidth + 'px';
 }
 
+// document.querySelector("webview").addEventListener('permissionrequest', function(e) {
+// 	if (e.permission === 'media') {
+// 		e.request.allow();
+// 	}
+// }
+
 onload = updateWebviews;
 window.onresize = updateWebviews;
