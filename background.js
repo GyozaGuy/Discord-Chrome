@@ -3,6 +3,7 @@ chrome.app.runtime.onLaunched.addListener(function() {
 		bounds: {
 			height: 700,
 			width: 1200
-		}
+		},
+		id: 'discord'
 	});
 });
