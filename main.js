@@ -10,5 +10,10 @@ document.querySelector('webview').addEventListener('permissionrequest', function
 	}
 });
 
+var webview = document.querySelector('#wv1');
+webview.addEventListener('newwindow', function(e) {
+  window.open(e.targetUrl);
+});
+
 onload = updateWebviews;
 window.onresize = updateWebviews;
