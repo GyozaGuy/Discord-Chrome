@@ -1,4 +1,4 @@
-var height = 700;
+var height = 750;
 var width = 1200;
 chrome.app.runtime.onLaunched.addListener(function() {
 	chrome.app.window.create('index.htm',	{
